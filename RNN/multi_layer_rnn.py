@@ -63,13 +63,7 @@ def multi_layer_dynamic_mix(input_x,n_steps,n_hidden):
     return hiddens,states
 
 def mnist_rnn_classification(flag):
+    pass
+    # TODO
 
-    tf.reset_default_graph()
-    # 导入数据
-    mnist = input_data.read_data_sets('MNIST-data',one_hot=True)
-
-    n_input = 28
-    n_steps = 28
-    n_hidden = 128
-    
 
